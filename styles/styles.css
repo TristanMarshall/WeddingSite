@@ -1,0 +1,542 @@
+/*BELOW IS CSS FOR INDEX/LOCATION/PHOTOS.html*/
+html, body {
+  min-height: 100%;
+}
+
+body {
+ font-size: 1rem;
+ background-color: #EFFBF2;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+.headPhoto {
+  width: 100%;
+  height: 40%;
+  z-index: -100;
+  margin-top: -40px;
+}
+
+.headPhoto1 {
+  width: 100%;
+  height: 40%;
+  z-index: -100;
+  margin-top: -40px;
+  display: none;
+}
+
+.center-content {
+  display: none;
+  text-align: center;
+}
+
+.logoPhoto {
+  width: 34%;
+  height: auto;
+  margin: -40% auto 3% -5%;
+  display: none;
+}
+
+.floater {
+  width: 30%;
+  float: left;
+  margin-left: 6.5%;
+  margin-right: 0;
+  margin-top: 5%;
+}
+
+.hashtag {
+  height: 80px;
+  width: 110%;
+  background-color: #F2F2F2;
+  border-bottom: 3px solid #D8D8D8;
+  border-top: 3px solid #D8D8D8;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #696969;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: Quicksand;
+  margin-bottom: -18%;
+  margin-top: 3%;
+}
+
+.tag {
+  font-size: 1.4rem;
+  color: #696969;
+  text-align: center;
+  font-family: Quicksand;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aboutUs {
+  background-color: #F2F2F2;
+  border-bottom: 3px solid #D8D8D8;
+  border-top: 3px solid #D8D8D8;
+  height:100%;
+  width: 95%;
+  margin-bottom: 100px;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+.aboutTitle {
+  text-decoration: underline;
+  font-size: 1.6rem;
+  color: #696969;
+  text-align: center;
+  font-family: Poiret One;
+  margin-bottom: 10%;
+}
+
+.aboutContent {
+  font-size: 1.4rem;
+  color: #696969;
+  text-align: center;
+  font-family: Quicksand;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aboutUsPhoto {
+  height:50%;
+  width: 50%;
+  float: left;
+  margin-top: 5%;
+  margin-right: 6.5%;
+  margin-left: 6%;
+  margin-bottom: 100px;
+}
+
+.NavBar {
+  width: 100%;
+  position:fixed;
+  background-color: black;
+  opacity: .7;
+  display: none;
+}
+
+.custom {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+hr {
+  margin-bottom: 0;
+  width: 98%;
+}
+
+.footTag {
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  margin-top: -8%;
+}
+
+.twenty {
+  font-size: 6vw;
+}
+
+.foot {
+  margin-top: 20px;
+  width: 100%;
+  height: 10%;
+}
+
+/*BELOW IS CSS FOR PHOTOS.HTML*/
+
+.photo1 {
+  height: 40%;
+  width: 40%;
+  float: left;
+  margin: 5% 0 0 9.7%;
+}
+
+.photo2 {
+  height: 40%;
+  width: 40%;
+  float: right;
+  margin: 5% 9.6% 0 0;
+}
+
+.photo3 {
+  height: 40%;
+  width: 40%;
+  float: left;
+  margin: .5% 0% 10% 9.7%;
+}
+
+.photo4 {
+  height: 40%;
+  width: 40%;
+  float: right;
+  margin: .5% 9.6% 10% 0%;
+}
+
+/*BELOW IS CSS FOR LOCATION.HTML */
+
+.meadowBrookHall {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sep {
+  width: 80%;
+  padding-top:
+}
+
+.hall {
+  width: 80%;
+  height: 80%;
+  margin-left: 9.5%;
+  margin-right: 9.5%;
+}
+
+.map {
+    float:left;
+    margin-left: 10%;
+    margin-right: 0;
+    margin-bottom: 100px;
+    margin-top:-50px;
+}
+
+.mainText {
+  color: #696969;
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: none;
+}
+
+.secondText {
+  color: #696969;
+  font-size: 150%;
+  text-align: center;
+  font-family: Quicksand;
+}
+
+.aboutLocation {
+  background-color: #F2F2F2;
+  height: 70%;
+  width: 35%;
+  border-bottom: 3px solid #D8D8D8;
+  border-top: 3px solid #D8D8D8;
+  float:right;
+  margin-right: 10%;
+  margin-left: 1%;
+  margin-bottom: 100px;
+  margin-top: -50px;
+}
+
+.weather {
+  font-family: Quicksand;
+  height: 100%;
+  width: 40%;
+  border-bottom: 3px solid #D8D8D8;
+  border-top: 3px solid #D8D8D8;
+  background-color: #F2F2F2;
+  float:left;
+  margin-left: 10%;
+  margin-right: 0;
+  margin-bottom: 100px;
+  margin-top: -5%;
+}
+
+.sun {
+  padding-top: 9px;
+  float: left;
+}
+
+.current {
+  font-size: 1.4rem;
+  color: #696969;
+  text-align: center;
+  font-family: Quicksand;
+  padding-top: 36px;
+  padding-bottom: 5px;
+}
+
+.sunny {
+  float:left;
+  margin-right: 4%;
+}
+
+.sundown {
+  float: left;
+}
+
+.current2 {
+  font-family: Quicksand;
+}
+
+/*MEDIA_Q*/
+
+@media (max-width:400px) {
+  body {
+   font-size: 1rem;
+   background-color: #EFFBF2;
+ }
+ /*MEDIA_Q FOR INDEX*/
+
+ .headPhoto {
+   width: 100%;
+   z-index: -100;
+   margin-top: 23px;
+ }
+
+ .headPhoto1 {
+   width: 100%;
+   z-index: -100;
+   margin-top: 23px;
+   display: none;
+ }
+
+ .center-content {
+   display: none;
+   text-align: center;
+ }
+
+ .logoPhoto {
+   width: 41%;
+   height: auto;
+   margin: -40% auto 7.5% -5%;
+   display: none;
+ }
+
+ .mainText {
+   color: #696969;
+   text-align: center;
+   font-family: Poiret One;
+   font-size: 40px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   display: none;
+ }
+
+ .floater {
+   width: 80%;
+   margin-left: 9.5%;
+   margin-right: 9.5%;
+ }
+
+ .hashtag {
+   font
+   height: 75px;
+   width: 95%;
+   background-color: #F2F2F2;
+   border-bottom: 3px solid #D8D8D8;
+   border-top: 3px solid #D8D8D8;
+   margin-bottom: 10px;
+   margin-left: 2.4%;
+   margin-right: 2.4%;
+ }
+
+ .tag {
+   font-size: 1rem;
+   color: #696969;
+   text-align: center;
+   font-family: Quicksand;
+   margin-top: 20%;
+   margin-bottom: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
+ }
+
+ .aboutUs {
+   background-color: #F2F2F2;
+   border-bottom: 3px solid #D8D8D8;
+   border-top: 3px solid #D8D8D8;
+   height:100%;
+   width: 95%;
+   margin-bottom: 100px;
+   margin-right: 2.4%;
+   margin-left: 2.4%;
+ }
+
+ .aboutUsPhoto {
+   height:80%;
+   width: 80%;
+   margin-right: 6.5%;
+   margin-left: 6%;
+   margin-bottom: 100px;
+   display: none;
+ }
+
+ .NavBar {
+   width: 100%;
+   position: fixed;
+   background-color: black;
+   opacity: .7;
+   display: none;
+ }
+
+ .custom {
+   color: white;
+   text-decoration: none;
+   font-family: 'Poiret One', cursive;
+   font-size: 20px;
+   padding-right: 10px;
+   padding-left: 8px;
+ }
+
+ hr {
+   margin-bottom: 0;
+   width: 98%;
+ }
+
+ .footTag {
+   font-size: 4vw;
+   color: white;
+   text-align: center;
+   font-family: 'Poiret One', cursive;
+   margin-top: -12%;
+ }
+
+ .twenty {
+   font-size: 6vw;
+ }
+
+ .foot {
+   margin-top: 15px;
+   width: 100%;
+   height: 39px;
+ }
+
+/*MEDIA_Q FOR PHOTOS*/
+
+.photo1 {
+  height: 90%;
+  width: 90%;
+  float: none;
+  margin: 5% 4.5% 2% 4.5%;
+}
+
+.photo2 {
+  height: 90%;
+  width: 90%;
+  float: none;
+  margin: 0 4.5% 2% 4.5%;
+}
+
+.photo3 {
+  height: 90%;
+  width: 90%;
+  float: none;
+  margin: 0 4.5% 2% 4.5%;
+}
+
+.photo4 {
+  height: 90%;
+  width: 90%;
+  float: none;
+  margin: 0 4.5% 2% 4.5%;
+}
+
+/*MEDIA_Q FOR LOCATION*/
+
+.meadowBrookHall {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sep {
+  width: 80%;
+  padding-top:
+}
+
+.hall {
+  width: 95%;
+  height: 95%;
+  margin-left: 2.4%;
+  margin-right: 2.4%;
+}
+
+.map {
+    float:none;
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    margin-bottom: 100px;
+    margin-top:-90px;
+}
+
+iframe {
+    width: 95%;
+}
+
+.secondText {
+  color: #696969;
+  font-size: 125%;
+  text-align: center;
+  font-family: Quicksand;
+}
+
+.aboutLocation {
+  background-color: #F2F2F2;
+  height: 70%;
+  width: 95%;
+  border-bottom: 3px solid #D8D8D8;
+  border-top: 3px solid #D8D8D8;
+  float:none;
+  margin-right: 2.4%;
+  margin-left: 2.4%;
+  margin-bottom: 40px;
+  margin-top: -85px;
+}
+
+.weather {
+  font-family: Quicksand;
+  height: 100%;
+  width: 95%;
+  border-bottom: 3px solid #D8D8D8;
+  border-top: 3px solid #D8D8D8;
+  background-color: #F2F2F2;
+  float: left;
+  margin-left: 2.4%;
+  margin-right: 2.4%;
+  margin-bottom: 100px;
+  margin-top: -5%;
+}
+
+.sun {
+  padding-top: 9px;
+  float: left;
+}
+
+.current {
+  font-size: 1.4rem;
+  color: #696969;
+  text-align: center;
+  font-family: Quicksand;
+  padding-top: 36px;
+  padding-bottom: 5px;
+}
+
+.sunny {
+    float:left;
+    margin-right: 4%;
+}
+
+.sundown {
+    float: left;
+}
+
+.current2 {
+    font-family: Quicksand;
+}
+
+}
