@@ -15,8 +15,7 @@
   * A photo of the couple
 
 ### **Photo Page**
-  * THESE PHOTOS are not of Tristan & Natalie. All engagement photos taken from [Carina Skrobecki](http://carinaskrobecki.com/gallery/ingalisa-jacob/). Tristan & Natalie will have similar engagement photos taken later this fall, following this site will be live.
-  * Several Photos of the couple
+  * Several photos of the couple, all taken by Steve Casillas (photographer information available upon request).
 
 
 ### **Location Page**
