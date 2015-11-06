@@ -37,3 +37,5 @@
 * ajax
 * Weather maps
 * Google Maps
+
+###### This application was created by Tristan Marshall
