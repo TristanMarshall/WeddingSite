@@ -49,11 +49,13 @@ body {
 
 .hashtag {
   height: 80px;
-  width: 110%;
+  width: 29%;
   background-color: #F2F2F2;
   border-bottom: 3px solid #D8D8D8;
   border-top: 3px solid #D8D8D8;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-top: 9%;
 }
 
 .label {
@@ -62,19 +64,16 @@ body {
   font-size: 1.1rem;
   text-align: center;
   font-family: Quicksand;
-  margin-bottom: -18%;
+  margin-bottom: -14%;
   margin-top: 3%;
 }
 
 .tag {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: #696969;
   text-align: center;
   font-family: Quicksand;
-  margin-top: 20%;
-  margin-bottom: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 14%;
 }
 
 .aboutUs {
@@ -108,13 +107,18 @@ body {
 }
 
 .aboutUsPhoto {
-  height:50%;
-  width: 50%;
+  height: 50%;
+  width: 44%;
   float: left;
-  margin-top: 5%;
-  margin-right: 6.5%;
-  margin-left: 6%;
-  margin-bottom: 100px;
+  margin-left: 2%;
+  margin-bottom: 10%;
+  margin-top: -13%;
+}
+
+.savethedate {
+  width: 41%;
+  float: left;
+  margin-left: 4%;
 }
 
 .NavBar {
@@ -312,17 +316,24 @@ hr {
 
 /*MEDIA_Q*/
 
-@media (max-width:400px) {
+@media (max-width:800px) {
   body {
    font-size: 1rem;
    background-color: #EFFBF2;
  }
  /*MEDIA_Q FOR INDEX*/
 
+.savethedate {
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 7%;
+}
+
  .headPhoto {
-   width: 100%;
-   z-index: -100;
-   margin-top: 23px;
+  width: 100%;
+  z-index: -100;
+  margin-top: 22px;
  }
 
  .headPhoto1 {
@@ -361,15 +372,13 @@ hr {
  }
 
  .hashtag {
-   font
-   height: 75px;
-   width: 95%;
-   background-color: #F2F2F2;
-   border-bottom: 3px solid #D8D8D8;
-   border-top: 3px solid #D8D8D8;
-   margin-bottom: 10px;
-   margin-left: 2.4%;
-   margin-right: 2.4%;
+    width: 66%;
+    background-color: #F2F2F2;
+    border-bottom: 3px solid #D8D8D8;
+    border-top: 3px solid #D8D8D8;
+    margin-bottom: 10px;
+    margin-left: 16.4%;
+    margin-right: 2.4%;
  }
 
  .tag {
@@ -403,6 +412,16 @@ hr {
    display: none;
  }
 
+ .aboutContent {
+  width: 87%;
+  font-size: 3vw;
+  color: #696969;
+  text-align: center;
+  font-family: Quicksand;
+  padding-left: 5%;
+  padding-right: 5%;
+ }
+
  .NavBar {
    width: 100%;
    position: fixed;
@@ -412,12 +431,12 @@ hr {
  }
 
  .custom {
-   color: white;
-   text-decoration: none;
-   font-family: 'Poiret One', cursive;
-   font-size: 20px;
-   padding-right: 10px;
-   padding-left: 8px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 4vw;
+  padding-right: 10px;
+  padding-left: 8px;
  }
 
  hr {
@@ -426,11 +445,10 @@ hr {
  }
 
  .footTag {
-   font-size: 4vw;
-   color: white;
-   text-align: center;
-   font-family: 'Poiret One', cursive;
-   margin-top: -12%;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
  }
 
  .twenty {
@@ -522,6 +540,22 @@ iframe {
   margin-left: 2.4%;
   margin-bottom: 40px;
   margin-top: -85px;
+}
+
+.aboutTitle {
+  text-decoration: underline;
+  font-size: 4vw;
+  color: #696969;
+  text-align: center;
+  font-family: Poiret One;
+  margin-bottom: 4%;
+}
+
+.registryLinks {
+  font-size: 3vw;
+  font-family: quicksand;
+  color: green;
+  text-align: center;
 }
 
 .weather {
